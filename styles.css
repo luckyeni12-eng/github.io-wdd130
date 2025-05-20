@@ -1,0 +1,39 @@
+/* Main content styling */
+main {
+  width: 800px;
+  margin: 0 auto;
+}
+
+/* Profile image in main */
+main img {
+  width: 150px;
+  height: auto;
+}
+
+/* Reset padding for all paragraphs */
+p {
+  padding: 0;
+}
+
+/* Aside section styling */
+aside {
+  width: 80%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+/* Image inside aside */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 30px;
+  border-top: 2px solid #aaa;
+  text-align: center;
+}
