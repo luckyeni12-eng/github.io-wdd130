@@ -1,0 +1,81 @@
+/* CSS Variables */
+:root {
+  --primary-color: #005f73;
+  --accent1-color: #0a9396;
+  --accent2-color: #94d2bd;
+  --heading-font: 'Roboto Slab', serif;
+  --body-font: 'Roboto', sans-serif;
+}
+
+/* Reset box-model */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body Style */
+body {
+  font-family: var(--body-font);
+  color: var(--accent1-color);
+}
+
+/* Page Width */
+header, main, footer {
+  width: 840px;
+  margin: 0 auto;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: var(--heading-font);
+  color: var(--primary-color);
+}
+
+/* Navigation & Text Elements */
+nav, p, section, article {
+  margin: 16px;
+  padding: 8px;
+}
+
+/* Remove underline from social media images */
+.socialmedia a {
+  text-decoration: none;
+}
+
+/* Hero Section Styling */
+.hero {
+  position: relative;
+}
+
+.hero img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 20px;
+  width: 100%;
+  padding: 16px;
+  text-align: center;
+  opacity: 0.7;
+  background-color: var(--accent1-color);
+  color: #fff;
+}
+
+.hero article {
+  position: absolute;
+  bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 16px;
+  max-width: 70%;
+}
+
+.hero article img {
+  float: right;
+  width: 125px;
+  margin: 0 0 8px 16px;
+  border-radius: 8px;
+}
